@@ -26,7 +26,7 @@
                             <div class="row">
                                 <div class="col-lg-6 col-sm-6">
                                     <div class="logo">
-                                        <h1>Name Store</h1>
+                                        <h1>Nama Toko</h1>
                                     </div>
                                 </div>
                                 <div class="col-lg-6 col-sm-6">
@@ -40,7 +40,7 @@
                             <div class="row">
                                 <div class="col-sm-6 mb-50">
                                     <div class="invoice-number">
-                                        <h4 class="inv-title-1">Invoice date:</h4>
+                                        <h4 class="inv-title-1">Tanggal Invoice:</h4>
                                         <p class="invo-addr-1">
                                             {{ Carbon\Carbon::now()->format('M d, Y') }}
                                         </p>
@@ -49,15 +49,15 @@
                             </div>
                             <div class="row">
                                 <div class="col-sm-6 mb-50">
-                                    <h4 class="inv-title-1">Customer</h4>
+                                    <h4 class="inv-title-1">Pembeli</h4>
                                     <p class="inv-from-1">{{ $customer->name }}</p>
                                     <p class="inv-from-1">{{ $customer->phone }}</p>
                                     <p class="inv-from-1">{{ $customer->email }}</p>
                                     <p class="inv-from-2">{{ $customer->address }}</p>
                                 </div>
                                 <div class="col-sm-6 text-end mb-50">
-                                    <h4 class="inv-title-1">Store</h4>
-                                    <p class="inv-from-1">Name Store</p>
+                                    <h4 class="inv-title-1">Toko</h4>
+                                    <p class="inv-from-1">Nama Toko</p>
                                     <p class="inv-from-1">(+62) 123 123 123</p>
                                     <p class="inv-from-1">email@example.com</p>
                                     <p class="inv-from-2">Cirebon, Jawa Barat, Indonesia</p>
